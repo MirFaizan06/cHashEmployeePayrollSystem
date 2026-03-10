@@ -1,0 +1,13 @@
+namespace PayrollSystem
+{
+    public class Employee
+    {
+        public int EmployeeID { get; set; }
+
+        public string Name { get; set; }
+
+        public string Department { get; set; }
+
+        public decimal BasicSalary { get; set; }
+    }
+}
