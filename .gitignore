@@ -1,0 +1,89 @@
+# .NET / C# Git Ignore
+
+# Build results
+
+bin/
+obj/
+
+# Visual Studio / VS Code settings
+
+.vs/
+.vscode/
+
+# User-specific files
+
+*.user
+*.userosscache
+*.suo
+
+# Rider
+
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Database files
+
+*.mdf
+*.ldf
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# NuGet packages
+
+*.nupkg
+packages/
+
+# Publish folder
+
+publish/
+
+# Coverage reports
+
+coverage/
+*.coverage
+
+# Resharper
+
+_ReSharper*
+*.DotSettings.user
+
+# Backup files
+
+*.bak
+
+# Environment files
+
+.env
+
+# Generated files
+
+Generated/
+
+# Rider/JetBrains
+
+*.sln.iml
+
+# Local SQL files
+
+*.sqlite
+*.db
+
+# Node (if frontend tools are ever added)
+
+node_modules/
+
+# Debug folders
+
+Debug/
+Release/
